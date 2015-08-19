@@ -37,4 +37,5 @@ Lita.configure do |config|
   config.adapters.slack.token = "xoxb-9327546839-pG2BNuL6aspMjOyMESUhSoV2"
   config.robot.admins = ["U095UCGTV"]
   config.handlers.forecast.api_key = 'e2d8d7f0cba0b79e60993aa8342ecbd3'
+  config.handlers.wolfram_alpha.app_id = "T377GE-3KAGART7PY"
 end
