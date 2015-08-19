@@ -35,4 +35,5 @@ Lita.configure do |config|
   # config.handlers.some_handler.some_config_key = "value"
   config.robot.adapter = :slack
   config.adapters.slack.token = "xoxb-9327546839-pG2BNuL6aspMjOyMESUhSoV2"
+  config.robot.admins = ["U095UCGTV"]
 end
