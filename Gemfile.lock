@@ -58,6 +58,8 @@ GEM
       lita (>= 3.0.0)
     lita-greet (0.1.0)
       lita (>= 4.4)
+    lita-motivate (0.2.1)
+      lita (>= 4.2)
     lita-nerf-war (0.1.5)
       lita (>= 4.3)
     lita-netping (0.5.0)
@@ -83,6 +85,8 @@ GEM
       multi_json
     lita-starbucks (0.1.2)
       lita (>= 4.3)
+    lita-xkcd (0.0.5)
+      lita (>= 2.2)
     mini_portile (0.6.2)
     multi_json (1.11.2)
     multi_xml (0.5.5)
@@ -116,6 +120,7 @@ DEPENDENCIES
   lita-excuses
   lita-forecast
   lita-greet
+  lita-motivate
   lita-nerf-war
   lita-netping
   lita-pls
@@ -126,6 +131,7 @@ DEPENDENCIES
   lita-shipit
   lita-slack
   lita-starbucks
+  lita-xkcd
 
 BUNDLED WITH
    1.10.6

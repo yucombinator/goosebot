@@ -20,6 +20,8 @@ gem 'lita-forecast'
 gem "lita-greet"
 # gem "lita-lunch" Stupid gem crashes :(
 gem "lita-remember"
+gem "lita-motivate"
+gem "lita-xkcd"
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
