@@ -5,6 +5,14 @@ gem "lita"
 gem "lita-slack"
 gem "lita-applause"
 gem "lita-catfacts"
+gem "lita-nerf-war"
+gem "lita-netping"
+gem "lita-pls"
+gem "lita-poll"
+gem "lita-poop"
+gem 'lita-random', '~> 0.5.1'
+gem "lita-shipit"
+gem "lita-starbucks"
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
 
