@@ -13,7 +13,7 @@ gem "lita-poop"
 gem 'lita-random', '~> 0.5.1'
 gem "lita-shipit"
 gem "lita-starbucks"
-gem "lita-boardgamegeek"
+#gem "lita-boardgamegeek"
 gem "lita-catgif"
 gem "lita-excuses"
 gem 'lita-forecast'
