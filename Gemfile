@@ -18,7 +18,7 @@ gem "lita-catgif"
 gem "lita-excuses"
 gem 'lita-forecast'
 gem "lita-greet"
-gem "lita-lunch"
+# gem "lita-lunch" Stupid gem crashes :(
 gem "lita-remember"
 
 # Uncomment to use the HipChat adapter
