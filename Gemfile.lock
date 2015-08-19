@@ -28,14 +28,32 @@ GEM
       lita (>= 4.0)
     lita-catfacts (0.0.4)
       lita (>= 2.3)
+    lita-nerf-war (0.1.5)
+      lita (>= 4.3)
+    lita-netping (0.5.0)
+      lita (>= 4.0)
+      net-ping
+    lita-pls (0.0.3)
+      lita (>= 2.6)
+    lita-poll (1.0.2)
+      lita (>= 4.2.1)
+    lita-poop (1.0.2)
+      lita (>= 2.0)
+    lita-random (0.5.1)
+      lita (~> 4.4)
+    lita-shipit (0.1.0)
+      lita (>= 4.0)
     lita-slack (1.5.0)
       eventmachine
       faraday
       faye-websocket (>= 0.8.0)
       lita (>= 4.4.2)
       multi_json
+    lita-starbucks (0.1.2)
+      lita (>= 4.3)
     multi_json (1.11.2)
     multipart-post (2.0.0)
+    net-ping (1.7.7)
     puma (2.13.4)
     rack (1.6.4)
     rb-readline (0.5.3)
@@ -56,7 +74,15 @@ DEPENDENCIES
   lita
   lita-applause
   lita-catfacts
+  lita-nerf-war
+  lita-netping
+  lita-pls
+  lita-poll
+  lita-poop
+  lita-random (~> 0.5.1)
+  lita-shipit
   lita-slack
+  lita-starbucks
 
 BUNDLED WITH
    1.10.6
