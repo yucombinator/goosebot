@@ -4,6 +4,7 @@ source "https://rubygems.org"
 gem "lita"
 gem "lita-slack"
 gem "lita-applause"
+gem "lita-catfacts"
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
 

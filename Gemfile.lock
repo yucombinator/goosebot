@@ -26,6 +26,8 @@ GEM
       thor (>= 0.18.1)
     lita-applause (0.0.2)
       lita (>= 4.0)
+    lita-catfacts (0.0.4)
+      lita (>= 2.3)
     lita-slack (1.5.0)
       eventmachine
       faraday
@@ -53,6 +55,7 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-applause
+  lita-catfacts
   lita-slack
 
 BUNDLED WITH
