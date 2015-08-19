@@ -58,8 +58,6 @@ GEM
       lita (>= 3.0.0)
     lita-greet (0.1.0)
       lita (>= 4.4)
-    lita-lunch (0.1.2)
-      lita (>= 4.4)
     lita-nerf-war (0.1.5)
       lita (>= 4.3)
     lita-netping (0.5.0)
@@ -118,7 +116,6 @@ DEPENDENCIES
   lita-excuses
   lita-forecast
   lita-greet
-  lita-lunch
   lita-nerf-war
   lita-netping
   lita-pls
