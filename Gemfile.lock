@@ -1,17 +1,31 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    bgg-api (0.0.2)
+      httparty
+      xml-simple
+    compass_rose (0.1.3)
     eventmachine (1.0.8)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.10.0)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
+    forecast_io (2.0.0)
+      faraday
+      hashie
+      multi_json
+    geocoder (1.2.9)
+    hashie (3.4.2)
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
+    httparty (0.13.5)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.7.0)
     ice_nine (0.11.1)
+    json (1.8.3)
     lita (4.4.3)
       bundler (>= 1.3)
       faraday (>= 0.8.7)
@@ -26,8 +40,26 @@ GEM
       thor (>= 0.18.1)
     lita-applause (0.0.2)
       lita (>= 4.0)
+    lita-boardgamegeek (0.1.1)
+      bgg-api (= 0.0.2)
+      lita (>= 4.3)
     lita-catfacts (0.0.4)
       lita (>= 2.3)
+    lita-catgif (0.0.2)
+      lita (>= 2.6)
+    lita-excuses (0.0.6)
+      lita (>= 2.2)
+      nokogiri
+    lita-forecast (0.1.7)
+      compass_rose (~> 0.1.0)
+      forecast_io (~> 2.0.0)
+      geocoder (~> 1.1, >= 1.1.9)
+      hashie (~> 3.0)
+      lita (>= 3.0.0)
+    lita-greet (0.1.0)
+      lita (>= 4.4)
+    lita-lunch (0.1.2)
+      lita (>= 4.4)
     lita-nerf-war (0.1.5)
       lita (>= 4.3)
     lita-netping (0.5.0)
@@ -41,6 +73,8 @@ GEM
       lita (>= 2.0)
     lita-random (0.5.1)
       lita (~> 4.4)
+    lita-remember (0.0.2)
+      lita (>= 4.3)
     lita-shipit (0.1.0)
       lita (>= 4.0)
     lita-slack (1.5.0)
@@ -51,9 +85,13 @@ GEM
       multi_json
     lita-starbucks (0.1.2)
       lita (>= 4.3)
+    mini_portile (0.6.2)
     multi_json (1.11.2)
+    multi_xml (0.5.5)
     multipart-post (2.0.0)
     net-ping (1.7.7)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
     puma (2.13.4)
     rack (1.6.4)
     rb-readline (0.5.3)
@@ -66,6 +104,7 @@ GEM
     websocket-driver (0.6.2)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    xml-simple (1.1.5)
 
 PLATFORMS
   ruby
@@ -73,13 +112,20 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-applause
+  lita-boardgamegeek
   lita-catfacts
+  lita-catgif
+  lita-excuses
+  lita-forecast
+  lita-greet
+  lita-lunch
   lita-nerf-war
   lita-netping
   lita-pls
   lita-poll
   lita-poop
   lita-random (~> 0.5.1)
+  lita-remember
   lita-shipit
   lita-slack
   lita-starbucks
