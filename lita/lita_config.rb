@@ -1,7 +1,4 @@
-Lita.configure do |config|
-  config.robot.adapter = :slack
-  config.adapters.slack.token = "xoxb-9327546839-pG2BNuL6aspMjOyMESUhSoV2"
-  
+Lita.configure do |config|  
   config.redis[:url] = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
 
@@ -36,4 +33,6 @@ Lita.configure do |config|
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
+  config.robot.adapter = :slack
+  config.adapters.slack.token = "xoxb-9327546839-pG2BNuL6aspMjOyMESUhSoV2"
 end
