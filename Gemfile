@@ -5,7 +5,7 @@ gem "lita"
 gem "lita-slack"
 gem "lita-applause"
 gem "lita-catfacts"
-gem "lita-nerf-war"
+#gem "lita-nerf-war"
 gem "lita-netping"
 gem "lita-pls"
 gem "lita-poll"
@@ -32,5 +32,5 @@ gem "lita-wolfram-alpha"
 
 # Add handlers to give Lita new functionality.
 # For example:
-# gem "lita-google-images"
-# gem "lita-karma"
+ gem "lita-google-images"
+ gem "lita-karma"
