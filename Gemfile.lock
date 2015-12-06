@@ -46,12 +46,14 @@ GEM
       geocoder (~> 1.1, >= 1.1.9)
       hashie (~> 3.0)
       lita (>= 3.0.0)
+    lita-google-images (2.0.0)
+      lita (>= 4.0)
     lita-greet (0.1.0)
       lita (>= 4.4)
+    lita-karma (3.0.2)
+      lita (>= 4.0)
     lita-motivate (0.2.1)
       lita (>= 4.2)
-    lita-nerf-war (0.1.5)
-      lita (>= 4.3)
     lita-netping (0.5.0)
       lita (>= 4.0)
       net-ping
@@ -109,9 +111,10 @@ DEPENDENCIES
   lita-catgif
   lita-excuses
   lita-forecast
+  lita-google-images
   lita-greet
+  lita-karma
   lita-motivate
-  lita-nerf-war
   lita-netping
   lita-pls
   lita-poll
