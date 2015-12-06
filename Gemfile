@@ -1,6 +1,6 @@
 # A sample Gemfile
 source "https://rubygems.org"
-ruby "2.2.2"
+#ruby "2.0.0"
 gem "lita"
 gem "lita-slack"
 gem "lita-applause"
