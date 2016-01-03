@@ -23,7 +23,7 @@ gem "lita-remember"
 gem "lita-motivate"
 gem "lita-xkcd"
 gem "lita-wolfram-alpha"
-
+gem "lita-resistance"
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
 
